@@ -1,0 +1,51 @@
+:root {
+    --primaryColor: #043c44;
+    --secondaryColor: #b8bab6;
+    --textColor: rgb(215, 215, 215);
+    --textSecondaryColor: #292e30;
+}
+
+.abt-feature {
+    background: var(--secondaryColor);
+    color: var(--textSecondaryColor);
+    width: 100%;
+    height: 600px;
+    padding: 100px 90px;
+    display: flex;
+    gap: 20px;
+}
+
+.feature-text {
+    margin-top: 25px;
+    width: 50%;
+}
+
+.feature-img {
+    border: 2px solid black;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 70px;
+    flex: 1;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+#waterproof-img {
+    background: url(assets/waterproof.jpg);
+}
+
+#durable-img {
+    background: url(assets/durable-img.jpg);
+    background-size: contain;
+    background-position: center;
+    background-size: 100%;
+}
+
+#comfort-img {
+    background: url(assets/comfort-img.jpg);
+    background-size: contain;
+    background-position: 50%;
+    background-position: 10px center;
+}
